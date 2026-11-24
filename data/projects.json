@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "id": "corporate-tower-security",
+      "title": "Integrated Security for Corporate Headquarters",
+      "sector": "Commercial",
+      "icon": "shield",
+      "summary": "End-to-end security platform unifying CCTV, access control, and visitor management across a 14-floor corporate tower with executive-floor restrictions.",
+      "scope": [
+        "120+ IP cameras with edge analytics across all floors and parking",
+        "Access control on 80+ doors with executive-floor anti-passback",
+        "Visitor management with QR-pass workflow",
+        "Centralized VMS and access platform with single sign-on"
+      ],
+      "scale": "14 floors · 120+ cameras",
+      "location": "Multi-floor tower",
+      "outcome": "Single-pane-of-glass security operations with sub-2-second event correlation between video and access events.",
+      "tags": ["CCTV", "Access Control", "VMS"],
+      "gradient": "#1B3A6B, #0F1E36"
+    },
+    {
+      "id": "hotel-access-control",
+      "title": "Hotel Access Control & Guest Experience",
+      "sector": "Hospitality",
+      "icon": "lock",
+      "summary": "Mobile-credential access control system across guest rooms, staff areas, and back-of-house, integrated with the property management system.",
+      "scope": [
+        "BLE / mobile-key access control on 220 guest rooms",
+        "Tiered staff access for housekeeping, F&B, and management zones",
+        "PMS integration for automated check-in / check-out provisioning",
+        "Audit logging and lost-credential lockout workflows"
+      ],
+      "scale": "220 rooms · 320 doors",
+      "location": "Resort property",
+      "outcome": "Eliminated physical-key reissuance overhead; reduced guest check-in time by 40% via mobile-key delivery.",
+      "tags": ["Access Control", "Mobile Credentials", "Integration"],
+      "gradient": "#0F1E36, #1B3A6B"
+    },
+    {
+      "id": "hospital-surveillance",
+      "title": "Hospital-Wide Surveillance & Restricted Access",
+      "sector": "Healthcare",
+      "icon": "camera",
+      "summary": "Multi-zone surveillance with restricted-area access control covering pharmacy, server room, neonatal unit, and patient records archives.",
+      "scope": [
+        "180 IP cameras across patient, clinical, and back-office areas",
+        "Biometric-only access on pharmacy and controlled-substance storage",
+        "Tamper-proof recording with 90-day retention compliance",
+        "Real-time anti-loitering and unauthorized-area alerts"
+      ],
+      "scale": "180 cameras · 45 controlled doors",
+      "location": "General hospital",
+      "outcome": "Compliance-grade audit trails for regulated areas; integrated alerts reduced response time to restricted-zone breaches.",
+      "tags": ["CCTV", "Biometric", "Compliance"],
+      "gradient": "#1B3A6B, #1E5BA8"
+    },
+    {
+      "id": "factory-time-attendance",
+      "title": "Manufacturing Plant Time & Attendance",
+      "sector": "Industrial",
+      "icon": "clock",
+      "summary": "Multi-shift biometric attendance system with payroll integration for a 600-person manufacturing facility operating three shifts.",
+      "scope": [
+        "12 fingerprint + face terminals across plant entrances",
+        "Shift-based scheduling with overtime and break tracking",
+        "Direct integration with payroll and ERP systems",
+        "Productivity reporting per line, shift, and supervisor"
+      ],
+      "scale": "600 employees · 3 shifts",
+      "location": "Industrial facility",
+      "outcome": "Eliminated buddy-punching; cut payroll processing time by 60%; produced audit-ready compliance reports.",
+      "tags": ["Time & Attendance", "Biometric", "ERP Integration"],
+      "gradient": "#0F1E36, #1B3A6B"
+    },
+    {
+      "id": "office-network-fitout",
+      "title": "Office Build-Out: Network & Low-Current",
+      "sector": "Commercial",
+      "icon": "network",
+      "summary": "Full structured cabling, fiber backbone, switching, and Wi-Fi for a 4,500 m² office fit-out — engineered for 350 workstations and AV-heavy meeting rooms.",
+      "scope": [
+        "Cat6A horizontal cabling certified per TIA/EIA-568 standards",
+        "OM4 fiber backbone with redundant ring topology",
+        "Managed PoE+ switching with VLANs for voice, data, and AV",
+        "Wi-Fi 6 coverage with site-survey-validated heat map"
+      ],
+      "scale": "4,500 m² · 350 workstations",
+      "location": "Commercial office",
+      "outcome": "Day-one full network availability; certified install with manufacturer warranty pass-through.",
+      "tags": ["Networking", "Cabling", "Wi-Fi 6"],
+      "gradient": "#1B3A6B, #0F1E36"
+    },
+    {
+      "id": "campus-turnstile-deployment",
+      "title": "Campus Entrance Control Deployment",
+      "sector": "Education",
+      "icon": "gate",
+      "summary": "Speed-gate turnstile deployment at campus main entrances with student / staff credential integration and visitor QR-pass workflow.",
+      "scope": [
+        "Speed gates at 4 main campus entrances (12 lanes total)",
+        "RFID + mobile credential authentication",
+        "Visitor pre-registration with QR-pass issuance",
+        "Anti-tailgating sensors with central monitoring station"
+      ],
+      "scale": "4 entrances · 12 lanes",
+      "location": "University campus",
+      "outcome": "Throughput of 40 persons/lane/minute during peak hours; full audit log of campus ingress and egress.",
+      "tags": ["Turnstiles", "RFID", "Visitor Management"],
+      "gradient": "#0F1E36, #1E5BA8"
+    }
+  ]
+}

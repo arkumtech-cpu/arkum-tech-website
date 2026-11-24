@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A1628" />
+  <title>Service Details — Arkum Tech</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://arkumtech.com/services.html" />
+  <meta name="description" content="Detailed specifications for Arkum Tech security and infrastructure systems." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/custom.css?v=20261124" />
+  <style>
+    .svc-illo-wrap{position:relative;border-radius:var(--radius-xl);overflow:hidden;background:var(--color-midnight);border:1px solid var(--border-default);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center}
+    .svc-illo-wrap::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(45,212,240,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(45,212,240,.06) 1px,transparent 1px);background-size:32px 32px;mask-image:radial-gradient(ellipse 80% 70% at 50% 50%,black,transparent);-webkit-mask-image:radial-gradient(ellipse 80% 70% at 50% 50%,black,transparent)}
+    .svc-illo-wrap svg{position:relative;z-index:1;width:92%;height:92%}
+    .svc-hero-grid{display:grid;grid-template-columns:1fr;gap:var(--space-7);align-items:center}
+    @media(min-width:1024px){.svc-hero-grid{grid-template-columns:1.1fr 1fr;gap:var(--space-8)}}
+    .feat-grid{display:grid;grid-template-columns:1fr;gap:10px}
+    @media(min-width:768px){.feat-grid{grid-template-columns:1fr 1fr}}
+    .feat-row{display:grid;grid-template-columns:30px 1fr;gap:12px;padding:14px 18px;background:var(--color-midnight);border:1px solid var(--border-subtle);border-radius:var(--radius-md);font-size:.9375rem;color:var(--color-slate-100);align-items:flex-start;transition:all var(--transition-fast)}
+    .feat-row:hover{border-color:var(--border-strong);background:rgba(45,212,240,.03)}
+    .feat-check{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--grad-brand);border-radius:50%;color:#fff;flex-shrink:0;margin-top:1px}
+    .feat-check svg{width:13px;height:13px}
+    .uc-grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:768px){.uc-grid{grid-template-columns:repeat(3,1fr)}}
+    .comp-wrap{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+    .outcome-band{padding:var(--space-6) var(--space-7);background:rgba(45,212,240,.05);border:1px solid var(--border-default);border-left:3px solid var(--color-electric-cyan);border-radius:var(--radius-lg);display:flex;gap:var(--space-4);align-items:flex-start}
+    .outcome-band svg{color:var(--color-electric-cyan);flex-shrink:0;margin-top:2px}
+    .outcome-band p{font-size:1rem;color:var(--color-slate-100);line-height:1.65}
+    .related-grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:640px){.related-grid{grid-template-columns:1fr 1fr}}
+    /* SVG animations */
+    @keyframes sd-pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.18)}}
+    @keyframes sd-flow{to{stroke-dashoffset:-220}}
+    @keyframes sd-blink{0%,100%{opacity:.3}50%{opacity:1}}
+    @keyframes sd-rotate{to{transform:rotate(360deg)}}
+    @keyframes sd-scan{0%{transform:translateY(-7px)}100%{transform:translateY(7px)}}
+    .sd-pulse{transform-origin:center;transform-box:fill-box;animation:sd-pulse 2.8s ease-in-out infinite}
+    .sd-pulse-2{animation-delay:.7s}.sd-pulse-3{animation-delay:1.4s}.sd-pulse-4{animation-delay:2.1s}
+    .sd-flow{stroke-dasharray:220;stroke-dashoffset:220;animation:sd-flow 3.5s linear infinite}
+    .sd-flow-2{animation-delay:1.2s}.sd-flow-3{animation-delay:2.4s}
+    .sd-blink{animation:sd-blink 1.8s ease-in-out infinite}
+    .sd-blink-2{animation-delay:.6s}.sd-blink-3{animation-delay:1.2s}
+    .sd-rotate{transform-origin:center;transform-box:fill-box;animation:sd-rotate 12s linear infinite}
+    .sd-scan{animation:sd-scan 2s ease-in-out infinite alternate}
+  </style>
+</head>
+<body>
+
+<div data-component="navbar"></div>
+<main id="svcMain">
+  <section class="page-hero">
+    <div class="hero-bg"><div class="orb orb-1"></div><div class="hex-grid"></div></div>
+    <div class="container" style="text-align:center;">
+      <div class="hex-icon" style="margin:0 auto var(--space-4);"></div>
+      <h1 class="text-h1">Turnstiles & Entrance Control</h1>
+    </div>
+  </section>
+</main>
+<!-- ===== SEO CONTENT (static, indexable). Edit the Arabic text here. ===== -->
+<section class="section" id="seoText" dir="rtl" lang="ar" style="padding-top:0">
+  <div class="container" style="max-width:860px">
+    <div class="card" style="padding:32px;text-align:right">
+      <h2 class="text-h2" style="margin-bottom:16px">البوابات الدوّارة وأنظمة التحكم في المداخل</h2>
+      <div class="text-body" style="line-height:1.9"><p>نورّد وننفّذ البوابات الدوّارة (Turnstile) والبوابات السريعة وبوابات الذراع والحواجز لتنظيم حركة الدخول والخروج في المباني الإدارية والأندية والمصانع والمحطات.</p><p>تُربط البوابات بأنظمة الكروت والبصمة والوجه والباركود لمنع الدخول غير المصرّح به وعدّ الأشخاص بدقة.</p></div>
+      <h3 class="text-h4" style="margin:24px 0 8px">ماذا نقدّم؟</h3>
+      <ul style="line-height:2;padding-right:20px;list-style:disc"><li>بوابات دوّارة ثلاثية الأذرع وكاملة الطول</li><li>بوابات سريعة Flap / Swing</li><li>حواجز وبوابات سيارات</li><li>ربط مع الكروت والبصمة والوجه</li><li>عدّ ومراقبة حركة الأشخاص</li></ul>
+      <h3 class="text-h4" style="margin:24px 0 8px">أسئلة شائعة</h3>
+      <div class="text-body" style="line-height:1.8"><details><summary>هل البوابات مناسبة للأماكن الخارجية؟</summary><p>نعم، تتوفر موديلات من الاستانلس ستيل مقاومة للعوامل الجوية.</p></details><details><summary>Do turnstiles work during power failure?</summary><p>Yes, with fail-safe/fail-secure modes and optional UPS backup.</p></details></div>
+      <p style="margin-top:24px"><a class="btn btn-primary" href="contact.html">اطلب عرض سعر</a>
+      <a class="btn btn-secondary" href="https://wa.me/201111016335" rel="noopener" target="_blank">واتساب <span dir="ltr">+201111016335</span></a></p>
+    </div>
+  </div>
+</section>
+
+<div data-component="footer"></div>
+
+<a href="https://wa.me/201111016335" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact via WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<script src="js/icons.js?v=20261124"></script>
+<script src="js/main.js?v=20261124"></script>
+
+<script>
+window.ARKUM_SERVICE='turnstiles';
+/* ============================================================
+   ALL SERVICES — SELF-CONTAINED DATA
+   Edit here to update any service page.
+   No server / no fetch required.
+============================================================ */
+const SERVICES = [
+  {
+    id:"cctv", name:"CCTV Systems",
+    tagline:"IP surveillance with intelligent video analytics",
+    description:"Deploy enterprise-grade IP video surveillance with edge analytics, centralized VMS, and forensic-grade recording. From single-site coverage to multi-location deployments with unified command and control.",
+    features:["4K / 8MP IP cameras with low-light and IR capability","AI-driven analytics: intrusion, loitering, line-crossing, face capture","Centralized Video Management System (VMS) with multi-site support","Edge + central recording with redundancy and automatic failover","ONVIF-compliant integration with third-party platforms","Mobile and web-based remote viewing with role-based access"],
+    useCases:[{title:"Perimeter Surveillance",desc:"Thermal and analytic cameras securing facility boundaries with automated intrusion alerts and response workflows."},{title:"Retail & Commercial",desc:"Loss-prevention coverage with people-counting, queue analytics, and heat-map reporting for operational insights."},{title:"Critical Infrastructure",desc:"Hardened cameras, encrypted streams, and tamper-proof recording for utilities, data centers, and industrial sites."}],
+    components:["4K IP Cameras","PTZ Cameras","NVR / VMS Platform","Storage Arrays","PoE+ Switches","Video Encoders","Display Walls","Edge Analytics Modules"],
+    outcome:"Unified command-and-control with sub-2-second event correlation between video analytics and alarm events, across distributed sites."
+  },
+  {
+    id:"access-control", name:"Access Control Systems",
+    tagline:"Credential, biometric, and mobile access management",
+    description:"Control who enters, when, and where — across single doors or enterprise campuses. Integrated with HR systems, visitor management, and intrusion alarms for a unified physical security posture.",
+    features:["Card, PIN, biometric (fingerprint, face), and mobile credentials","Anti-passback, dual authentication, and time-zone policy enforcement","Centralized policy engine with full audit trails and compliance reports","Integration with HR, visitor management, and emergency systems","Wiegand, OSDP, and IP-based controller architectures","Lockdown protocols and emergency override workflows"],
+    useCases:[{title:"Corporate Headquarters",desc:"Multi-tier access zones with executive-floor restrictions, visitor escort workflows, and board-room reservation integration."},{title:"Healthcare Facilities",desc:"Restricted-area control for pharmacies, server rooms, and patient records with biometric-only access and full audit logging."},{title:"Industrial Sites",desc:"Contractor management, certification-gating, and high-risk-zone authorization with time-based and role-based policies."}],
+    components:["IP Controllers","RFID Card Readers","Biometric Terminals","Electric Strikes","Maglocks","Door Position Sensors","REX Sensors","Visitor Management Software"],
+    outcome:"Single-pane security posture consolidating physical access, video evidence, and compliance reporting across all sites under one platform."
+  },
+  {
+    id:"time-attendance", name:"Time & Attendance",
+    tagline:"Workforce time tracking with payroll integration",
+    description:"Accurate workforce time capture with biometric verification, shift management, and direct payroll integration. Eliminate buddy-punching, reduce administrative overhead, and produce audit-ready records.",
+    features:["Fingerprint, face recognition, and palm-vein biometric verification","Shift scheduling, overtime calculation, and leave management","Direct integration with payroll and ERP systems (SAP, Oracle, and others)","Geo-fenced mobile clock-in for field and remote workforce","Labor regulation compliance reporting and automated alerts","Multi-location consolidation with centralized management dashboard"],
+    useCases:[{title:"Manufacturing",desc:"Shift-based tracking across production lines with per-line productivity reporting and automated overtime approval workflows."},{title:"Hospitality",desc:"Multi-shift, multi-role workforce tracking with auto-scheduled rostering and attendance-based service charge allocation."},{title:"Distributed Workforce",desc:"Mobile geo-fenced clock-in for sales teams, service engineers, and field personnel across multiple locations."}],
+    components:["Fingerprint Terminals","Face Recognition Devices","Palm-Vein Readers","Mobile Clock-in Apps","Scheduling Software","Payroll API Connectors","Reporting Dashboard","ERP Integration Modules"],
+    outcome:"Elimination of buddy-punching and time-theft with a 60% reduction in payroll processing time and full regulatory audit-readiness."
+  },
+  {
+    id:"turnstiles", name:"Turnstile & Entrance Control",
+    tagline:"Physical entrance control for high-throughput environments",
+    description:"Manage pedestrian flow at high-traffic entry points without compromising security. From discrete office lobbies to high-throughput stadium gates, integrated with credential, ticket, or QR-code authentication.",
+    features:["Tripod, swing-gate, speed-gate, and full-height turnstile options","Integrated with access control, ticketing, and visitor management systems","Anti-tailgating sensors and bidirectional throughput monitoring","ADA-compliant lanes and emergency-egress fail-safe modes","QR, NFC, RFID, and biometric authentication at lanes","Stainless steel, glass, and architectural finish options"],
+    useCases:[{title:"Office Lobbies",desc:"Speed gates with employee RFID credentials and visitor QR-code passes, integrated with reception desk management workflows."},{title:"Transit & Stadiums",desc:"Full-height and tripod gates for high-volume ticketed entry with throughput of 40+ persons per lane per minute."},{title:"Industrial Gates",desc:"Hardened turnstiles for plant entrances with PPE-compliance gating, contractor badge validation, and zonal access control."}],
+    components:["Tripod Turnstiles","Speed Gates","Swing Gates","Full-Height Turnstiles","Reader Pedestals","Lane Controllers","Anti-Tailgating Sensors","Emergency Release Modules"],
+    outcome:"Controlled pedestrian flow with complete entry/exit audit logs, 40+ persons/lane/minute throughput, and zero access-policy compromise."
+  },
+  {
+    id:"networking", name:"Networking & Low Current",
+    tagline:"Structured cabling and low-voltage infrastructure",
+    description:"The backbone every security and IT system depends on. We design, install, and certify structured cabling, fiber backbones, and active networking infrastructure for buildings, campuses, and industrial facilities.",
+    features:["Cat6 / Cat6A / Cat7 structured cabling, certified per TIA/EIA-568 standards","Single-mode and multi-mode fiber backbones with OTDR certification","Managed PoE+ switching with VLANs and QoS for AV and security traffic","Wireless Wi-Fi 6 coverage planning with site surveys and heat maps","Server room, MDF, and IDF rack design, build, and cable management","Public address, intercom, and nurse-call low-current systems"],
+    useCases:[{title:"Office Build-Out",desc:"Full structured cabling, racks, managed switching, and Wi-Fi 6 for new-tenant fit-outs, certified and warranted per TIA/EIA."},{title:"Multi-Building Campus",desc:"Fiber backbone connecting buildings with redundant ring topology and centralized network management platform."},{title:"Industrial Networks",desc:"Hardened, ruggedized switching for plant-floor monitoring, SCADA integration, and OT/IT network segmentation."}],
+    components:["Cat6A Horizontal Cabling","OM4 Fiber Backbone","Managed PoE+ Switches","Wi-Fi 6 Access Points","Server Racks & Enclosures","Patch Panels","Cable Management","OTDR Certification Tools"],
+    outcome:"Day-one full network availability with TIA/EIA-certified installation, manufacturer warranty pass-through, and documented test results."
+  },
+  {
+    id:"supplies", name:"General Supplies",
+    tagline:"Trusted hardware sourcing and procurement",
+    description:"Streamlined procurement of certified hardware, cables, and consumables. Authorized vendor relationships ensure authentic equipment, warranty support, and supply continuity for ongoing projects and maintenance.",
+    features:["Authorized vendor relationships with leading security and network manufacturers","Bulk and project-based procurement with scheduled delivery coordination","Certified products with full manufacturer warranty and after-sales support","Cabling, connectors, racks, accessories, tools, and consumables","Replacement parts and end-of-life equipment alternative sourcing","Technical advisory on product selection, compatibility, and value engineering"],
+    useCases:[{title:"Project Procurement",desc:"Single-source supply for complete security and networking deployments — from cameras to cable management to server racks."},{title:"Maintenance Stock",desc:"Replenishment supply and spare-parts management for facilities maintenance teams and IT operations."},{title:"Specification Advisory",desc:"Consultative product selection for engineering, design, and project management teams during specification phase."}],
+    components:["Structured Cabling","Connectors & Keystones","Racks & Enclosures","Power Distribution Units","Cable Management","Tools & Test Equipment","Consumables","Replacement Parts"],
+    outcome:"Reduced procurement overhead, guaranteed product authenticity, and continuous supply availability backed by authorized distributor relationships."
+  },
+  {
+    id:"consulting", name:"Installation & Technical Consulting",
+    tagline:"Engineering oversight from first quotation to final handover",
+    description:"Having Arkum Tech involved from the first quotation to final handover protects your investment. We survey the site, review and validate technical proposals and bills of quantities, carry out or supervise the installation, and test every system before it goes live — so the work is completed correctly, to specification, and fully documented.",
+    features:["Site survey and requirements analysis before any commitment", "Independent technical review of quotations and bills of quantities (BOQ)", "System design: camera coverage, door schedules, network and cabling plans", "Installation by trained technicians following manufacturer and industry standards", "On-site supervision and quality checks for third-party contractors", "Testing, commissioning, documentation and user training at handover"],
+    useCases:[{"title": "Quotation Validation", "desc": "A second technical opinion on vendor offers: specifications, quantities, compatibility and hidden gaps — reviewed before you sign."}, {"title": "Corporate Fit-Outs", "desc": "Technical consultation on the security and low-current scope, coordinated with MEP and civil teams from design to delivery."}, {"title": "Retrofit & Upgrade", "desc": "Assessment of existing CCTV, access control and cabling, then an upgrade plan that reuses what still works."}],
+    components:["Site Survey", "BOQ Review", "System Design", "Installation", "Supervision", "Commissioning", "Documentation", "Maintenance Plans"],
+    outcome:"A project delivered to specification — documented, tested and handed over with the confidence that every system works as designed."
+  },
+  {
+    id:"software", name:"Software & App Development",
+    tagline:"Custom desktop and mobile applications for security and operations",
+    description:"Our software department builds custom applications that connect to the systems we install and to your business workflows: desktop software for control rooms and back offices, and mobile apps for staff, guards and customers — from attendance and visitor management to monitoring dashboards and ERP integrations.",
+    features:["Windows desktop applications: control-room tools, reporting and device management", "Android and iOS apps (cross-platform with Flutter) for staff, guards and customers", "Integration with CCTV, access control and attendance devices through vendor SDKs and APIs", "Custom dashboards, reports and real-time alerts", "Attendance, payroll, HR and ERP integrations", "Secure back-end APIs, role-based access and ongoing maintenance"],
+    useCases:[{"title": "Attendance & HR Apps", "desc": "Mobile and desktop attendance tools connected to biometric devices, with shift rules and payroll-ready reports."}, {"title": "Visitor & Guard Management", "desc": "QR visitor passes, guard patrol check-ins and incident reporting from a mobile app, tied to your access control."}, {"title": "Monitoring Dashboards", "desc": "Unified web and desktop dashboards combining device status, events and reports across sites."}],
+    components:["Windows Desktop Apps", "Android & iOS Apps", "Flutter", "REST APIs", "Device SDK Integration", "Dashboards & Reports", "Cloud / On-prem Hosting", "Support & Updates"],
+    outcome:"Software that fits how your team actually works — connected to your devices, secured by design, and maintained after launch."
+  }
+];
+
+/* ---- UNIQUE SVG ILLUSTRATION PER SERVICE ---- */
+const ILLUSTRATIONS = {
+  cctv:`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="cg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><radialGradient id="cg2" cx=".5" cy=".5" r=".5"><stop offset="0%" stop-color="#67E8F9"/><stop offset="100%" stop-color="#1E5BA8"/></radialGradient><filter id="cgl"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="180" y="148" width="120" height="64" rx="10" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.5" filter="url(#cgl)"/><text x="240" y="172" font-family="JetBrains Mono,monospace" font-size="9" fill="#2DD4F0" text-anchor="middle" letter-spacing="1.5">// VMS SERVER</text><text x="240" y="188" font-family="Inter,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Centralized Recording</text><rect x="192" y="196" width="96" height="6" rx="3" fill="rgba(45,212,240,.12)"/><rect x="192" y="196" width="72" height="6" rx="3" fill="url(#cg1)" class="sd-blink"/><g transform="translate(60,55)"><rect x="-28" y="-18" width="56" height="36" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><path d="M-18,-6 L2,-6 L2,6 L-18,6 Z" fill="#1E5BA8" stroke="#2DD4F0" stroke-width=".8"/><path d="M2,-8 L16,0 L2,8 Z" fill="#2DD4F0" opacity=".8"/><circle cx="-22" cy="0" r="4" fill="url(#cg2)" filter="url(#cgl)" class="sd-pulse"/><text x="0" y="22" font-family="JetBrains Mono,monospace" font-size="8" fill="#67E8F9" text-anchor="middle">CAM-01</text><path d="M16,0 Q50,40 30,70" fill="none" stroke="rgba(45,212,240,.12)" stroke-width="12" stroke-linecap="round"/></g><g transform="translate(420,55)"><rect x="-28" y="-18" width="56" height="36" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><path d="M18,-6 L-2,-6 L-2,6 L18,6 Z" fill="#1E5BA8" stroke="#2DD4F0" stroke-width=".8"/><path d="M-2,-8 L-16,0 L-2,8 Z" fill="#2DD4F0" opacity=".8"/><circle cx="22" cy="0" r="4" fill="url(#cg2)" filter="url(#cgl)" class="sd-pulse sd-pulse-2"/><text x="0" y="22" font-family="JetBrains Mono,monospace" font-size="8" fill="#67E8F9" text-anchor="middle">CAM-02</text><path d="M-16,0 Q-50,40 -30,70" fill="none" stroke="rgba(45,212,240,.12)" stroke-width="12" stroke-linecap="round"/></g><g transform="translate(60,305)"><rect x="-28" y="-18" width="56" height="36" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><path d="M-18,-6 L2,-6 L2,6 L-18,6 Z" fill="#1E5BA8" stroke="#2DD4F0" stroke-width=".8"/><path d="M2,-8 L16,0 L2,8 Z" fill="#2DD4F0" opacity=".8"/><circle cx="-22" cy="0" r="4" fill="url(#cg2)" filter="url(#cgl)" class="sd-pulse sd-pulse-3"/><text x="0" y="22" font-family="JetBrains Mono,monospace" font-size="8" fill="#67E8F9" text-anchor="middle">CAM-03</text></g><g transform="translate(420,305)"><rect x="-28" y="-18" width="56" height="36" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><path d="M18,-6 L-2,-6 L-2,6 L18,6 Z" fill="#1E5BA8" stroke="#2DD4F0" stroke-width=".8"/><path d="M-2,-8 L-16,0 L-2,8 Z" fill="#2DD4F0" opacity=".8"/><circle cx="22" cy="0" r="4" fill="url(#cg2)" filter="url(#cgl)" class="sd-pulse sd-pulse-4"/><text x="0" y="22" font-family="JetBrains Mono,monospace" font-size="8" fill="#67E8F9" text-anchor="middle">CAM-04</text></g><line x1="88" y1="73" x2="180" y2="162" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".5" class="sd-flow"/><line x1="392" y1="73" x2="300" y2="162" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".5" class="sd-flow sd-flow-2"/><line x1="88" y1="305" x2="180" y2="198" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".5" class="sd-flow sd-flow-3"/><line x1="392" y1="305" x2="300" y2="198" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".5" class="sd-flow"/><g transform="translate(240,310)"><rect x="-50" y="-22" width="100" height="44" rx="6" fill="rgba(10,22,40,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><rect x="-44" y="-16" width="44" height="28" rx="3" fill="rgba(30,91,168,.3)" stroke="rgba(45,212,240,.2)" stroke-width=".6"/><rect x="2" y="-16" width="42" height="28" rx="3" fill="rgba(30,91,168,.3)" stroke="rgba(45,212,240,.2)" stroke-width=".6"/><circle cx="-22" cy="-2" r="6" fill="rgba(45,212,240,.15)" stroke="#2DD4F0" stroke-width=".6" class="sd-blink"/><circle cx="23" cy="-2" r="6" fill="rgba(45,212,240,.15)" stroke="#2DD4F0" stroke-width=".6" class="sd-blink-2"/><text x="0" y="30" font-family="JetBrains Mono,monospace" font-size="8" fill="#2DD4F0" text-anchor="middle">MONITORING STATION</text></g><line x1="240" y1="212" x2="240" y2="288" stroke="rgba(45,212,240,.4)" stroke-width="1" stroke-dasharray="3 3"/><g transform="translate(240,130)"><rect x="-36" y="-12" width="72" height="24" rx="6" fill="rgba(45,212,240,.08)" stroke="rgba(45,212,240,.3)" stroke-width=".8"/><text x="0" y="4" font-family="JetBrains Mono,monospace" font-size="9" fill="#2DD4F0" text-anchor="middle" letter-spacing=".5">AI ANALYTICS</text></g></svg>`,
+
+  "access-control":`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="ag1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><radialGradient id="ag2" cx=".5" cy=".5" r=".5"><stop offset="0%" stop-color="#67E8F9"/><stop offset="100%" stop-color="#1E5BA8"/></radialGradient><filter id="agl"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="188" y="60" width="104" height="180" rx="4" fill="none" stroke="rgba(45,212,240,.2)" stroke-width="2"/><rect x="194" y="66" width="92" height="168" rx="3" fill="rgba(15,30,54,.8)" stroke="rgba(45,212,240,.1)" stroke-width="1"/><circle cx="276" cy="158" r="6" fill="rgba(45,212,240,.3)" stroke="#2DD4F0" stroke-width="1"/><g transform="translate(240,100)"><rect x="-22" y="-8" width="44" height="16" rx="8" fill="rgba(16,185,129,.15)" stroke="#10B981" stroke-width=".8"/><circle cx="-12" cy="0" r="4" fill="#10B981" class="sd-blink"/><text x="4" y="4" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#10B981" letter-spacing=".5">AUTH</text></g><g transform="translate(156,148)"><rect x="-22" y="-44" width="44" height="88" rx="8" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.5" filter="url(#agl)"/><path d="M0,-28 Q-10,-28 -10,-18 L-10,2 Q-10,12 0,12 Q10,12 10,2 L10,-18 Q10,-28 0,-28Z" fill="none" stroke="#2DD4F0" stroke-width="1.2"/><line x1="-6" y1="-10" x2="6" y2="-10" stroke="#67E8F9" stroke-width=".8" class="sd-scan"/><path d="M-14,26 Q0,18 14,26" fill="none" stroke="rgba(45,212,240,.6)" stroke-width="1"/><path d="M-20,32 Q0,20 20,32" fill="none" stroke="rgba(45,212,240,.4)" stroke-width=".8"/><text x="0" y="50" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">READER</text></g><g transform="translate(340,180)"><rect x="-52" y="-36" width="104" height="72" rx="8" fill="rgba(15,30,54,.95)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><text x="0" y="-18" font-family="JetBrains Mono,monospace" font-size="8" fill="#2DD4F0" text-anchor="middle" letter-spacing="1">// CONTROLLER</text><circle cx="-32" cy="4" r="5" fill="rgba(45,212,240,.1)" stroke="#2DD4F0" stroke-width=".8" class="sd-blink"/><circle cx="-14" cy="4" r="5" fill="rgba(45,212,240,.1)" stroke="#2DD4F0" stroke-width=".8" class="sd-blink-2"/><circle cx="4" cy="4" r="5" fill="rgba(16,185,129,.2)" stroke="#10B981" stroke-width=".8" class="sd-blink-3"/><text x="0" y="26" font-family="Inter,sans-serif" font-size="9" fill="#94A3B8" text-anchor="middle">4-door IP controller</text></g><g transform="translate(90,200)"><rect x="-48" y="-32" width="96" height="64" rx="8" fill="rgba(15,30,54,.95)" stroke="rgba(45,212,240,.3)" stroke-width="1"/><text x="0" y="-14" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle" letter-spacing="1">// ACCESS MGMT</text><rect x="-36" y="-4" width="72" height="8" rx="4" fill="rgba(45,212,240,.1)"/><rect x="-36" y="-4" width="54" height="8" rx="4" fill="url(#ag1)" class="sd-blink"/><text x="0" y="22" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">Audit + Policy Engine</text></g><g transform="translate(380,68)"><rect x="-18" y="-32" width="36" height="64" rx="6" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><rect x="-12" y="-26" width="24" height="44" rx="3" fill="rgba(30,91,168,.25)"/><path d="M-6,-14 Q0,-20 6,-14 L6,4 Q0,12 -6,4Z" fill="none" stroke="#2DD4F0" stroke-width="1" class="sd-pulse-2"/><circle cx="0" cy="22" r="3" fill="rgba(45,212,240,.4)"/><text x="0" y="42" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">MOBILE</text></g><line x1="178" y1="180" x2="292" y2="180" stroke="#2DD4F0" stroke-width="1" stroke-opacity=".5" class="sd-flow"/><line x1="292" y1="180" x2="340" y2="180" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".6" class="sd-flow sd-flow-2"/><line x1="292" y1="180" x2="138" y2="200" stroke="rgba(45,212,240,.4)" stroke-width="1" stroke-dasharray="4 3"/><line x1="362" y1="100" x2="340" y2="144" stroke="rgba(45,212,240,.35)" stroke-width="1" stroke-dasharray="4 3"/><g transform="translate(240,316)"><rect x="-100" y="-12" width="200" height="24" rx="6" fill="rgba(15,30,54,.7)" stroke="rgba(45,212,240,.15)" stroke-width=".8"/><circle cx="-84" cy="0" r="4" fill="#10B981" class="sd-pulse"/><text x="-72" y="4" font-family="JetBrains Mono,monospace" font-size="8.5" fill="#94A3B8" letter-spacing=".5">ACCESS SYSTEM · SECURED</text></g></svg>`,
+
+  "time-attendance":`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="tg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><filter id="tgl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><circle cx="240" cy="170" r="82" fill="none" stroke="rgba(45,212,240,.12)" stroke-width="14"/><circle cx="240" cy="170" r="82" fill="none" stroke="url(#tg1)" stroke-width="2.5" stroke-dasharray="360" stroke-dashoffset="90" stroke-linecap="round" class="sd-rotate"/><circle cx="240" cy="170" r="72" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.2)" stroke-width="1"/><text x="240" y="155" font-family="JetBrains Mono,monospace" font-size="28" font-weight="700" fill="#2DD4F0" text-anchor="middle">08:47</text><text x="240" y="174" font-family="Inter,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">SHIFT START</text><line x1="240" y1="170" x2="240" y2="114" stroke="#2DD4F0" stroke-width="2" stroke-linecap="round"/><line x1="240" y1="170" x2="272" y2="170" stroke="#67E8F9" stroke-width="1.5" stroke-linecap="round"/><circle cx="240" cy="170" r="4" fill="#2DD4F0" filter="url(#tgl)"/><g transform="translate(90,180)"><rect x="-32" y="-56" width="64" height="112" rx="10" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.5" filter="url(#tgl)"/><text x="0" y="-38" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle" letter-spacing="1">TERMINAL</text><rect x="-18" y="-30" width="36" height="36" rx="4" fill="rgba(30,91,168,.2)" stroke="rgba(45,212,240,.4)" stroke-width=".8"/><circle cx="0" cy="-12" r="8" fill="none" stroke="#67E8F9" stroke-width=".8"/><line x1="-16" y1="-12" x2="16" y2="-12" stroke="rgba(45,212,240,.8)" stroke-width="1.2" class="sd-scan"/><path d="M-6,20 Q0,14 6,20 M-10,24 Q0,16 10,24 M-8,28 Q0,22 8,28" fill="none" stroke="#2DD4F0" stroke-width=".8"/><text x="0" y="46" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">Face + Finger</text></g><g transform="translate(390,140)"><rect x="-56" y="-68" width="112" height="136" rx="8" fill="rgba(15,30,54,.95)" stroke="rgba(45,212,240,.3)" stroke-width="1"/><text x="0" y="-52" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle" letter-spacing="1">// SHIFTS</text><text x="-48" y="-36" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">Morning</text><rect x="-48" y="-28" width="96" height="12" rx="3" fill="rgba(45,212,240,.08)"/><rect x="-48" y="-28" width="72" height="12" rx="3" fill="url(#tg1)" opacity=".7" class="sd-blink"/><text x="-48" y="-4" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">Evening</text><rect x="-48" y="4" width="96" height="12" rx="3" fill="rgba(45,212,240,.08)"/><rect x="-48" y="4" width="55" height="12" rx="3" fill="url(#tg1)" opacity=".5" class="sd-blink-2"/><text x="-48" y="28" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">Night</text><rect x="-48" y="36" width="96" height="12" rx="3" fill="rgba(45,212,240,.08)"/><rect x="-48" y="36" width="40" height="12" rx="3" fill="url(#tg1)" opacity=".35" class="sd-blink-3"/><line x1="-48" y1="60" x2="48" y2="60" stroke="rgba(45,212,240,.12)" stroke-width=".8"/><text x="-48" y="74" font-family="JetBrains Mono,monospace" font-size="8" fill="#10B981">✓ 247 CLOCKED IN</text></g><g transform="translate(240,310)"><rect x="-80" y="-14" width="160" height="28" rx="8" fill="rgba(15,30,54,.8)" stroke="rgba(45,212,240,.2)" stroke-width="1"/><circle cx="-64" cy="0" r="5" fill="rgba(45,212,240,.15)" stroke="#2DD4F0" stroke-width=".8" class="sd-blink"/><text x="-52" y="4" font-family="JetBrains Mono,monospace" font-size="8" fill="#94A3B8" letter-spacing=".5">PAYROLL SYNC · ACTIVE</text></g><line x1="122" y1="180" x2="158" y2="170" stroke="rgba(45,212,240,.5)" stroke-width="1.2" class="sd-flow sd-flow-2"/><line x1="322" y1="170" x2="334" y2="140" stroke="rgba(45,212,240,.5)" stroke-width="1.2" class="sd-flow sd-flow-3"/><line x1="240" y1="253" x2="240" y2="296" stroke="rgba(45,212,240,.4)" stroke-width="1" stroke-dasharray="4 3"/></svg>`,
+
+  turnstiles:`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="tsg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><filter id="tsgl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><line x1="40" y1="290" x2="440" y2="290" stroke="rgba(45,212,240,.15)" stroke-width="1.5"/><line x1="40" y1="80" x2="440" y2="80" stroke="rgba(45,212,240,.15)" stroke-width="1.5"/><g transform="translate(130,185)"><rect x="-8" y="-105" width="16" height="210" rx="5" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.5)" stroke-width="1.2"/><rect x="8" y="-6" width="60" height="12" rx="3" fill="rgba(45,212,240,.2)" stroke="#2DD4F0" stroke-width="1" class="sd-blink"/><text x="38" y="30" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">OPEN</text><rect x="-20" y="-38" width="24" height="38" rx="4" fill="rgba(30,91,168,.5)" stroke="#2DD4F0" stroke-width=".8"/><path d="M-8,-30 Q-8,-18 0,-14 Q8,-18 8,-30 L-8,-30Z" fill="none" stroke="#67E8F9" stroke-width=".8" class="sd-pulse-2"/><text x="-8" y="14" font-family="JetBrains Mono,monospace" font-size="6" fill="#94A3B8" text-anchor="middle">RFID</text></g><g transform="translate(310,185)"><rect x="-8" y="-105" width="16" height="210" rx="5" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.5)" stroke-width="1.2"/><rect x="-68" y="-6" width="60" height="12" rx="3" fill="rgba(45,212,240,.2)" stroke="#2DD4F0" stroke-width="1" class="sd-blink-2"/><text x="-38" y="30" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">OPEN</text><rect x="-4" y="-38" width="24" height="38" rx="4" fill="rgba(30,91,168,.5)" stroke="#2DD4F0" stroke-width=".8"/><path d="M8,-30 Q8,-18 0,-14 Q-8,-18 -8,-30 L8,-30Z" fill="none" stroke="#67E8F9" stroke-width=".8" class="sd-pulse-3"/></g><g transform="translate(220,185)"><circle cx="0" cy="-55" r="12" fill="rgba(45,212,240,.15)" stroke="#2DD4F0" stroke-width="1.2"/><line x1="0" y1="-43" x2="0" y2="-10" stroke="#2DD4F0" stroke-width="1.5" stroke-linecap="round"/><line x1="-14" y1="-30" x2="14" y2="-30" stroke="#2DD4F0" stroke-width="1.5" stroke-linecap="round"/><line x1="0" y1="-10" x2="-10" y2="18" stroke="#2DD4F0" stroke-width="1.5" stroke-linecap="round"/><line x1="0" y1="-10" x2="10" y2="18" stroke="#2DD4F0" stroke-width="1.5" stroke-linecap="round"/><circle cx="18" cy="-30" r="8" fill="rgba(16,185,129,.2)" stroke="#10B981" stroke-width="1" class="sd-pulse"/><text x="0" y="38" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">CREDENTIAL OK</text></g><g transform="translate(400,290)"><rect x="-44" y="-28" width="88" height="56" rx="6" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.3)" stroke-width="1"/><text x="0" y="-14" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle" letter-spacing="1">CONTROLLER</text><text x="0" y="2" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">2 lanes active</text><circle cx="-28" cy="16" r="5" fill="rgba(16,185,129,.3)" stroke="#10B981" stroke-width=".8" class="sd-blink"/><circle cx="-14" cy="16" r="5" fill="rgba(16,185,129,.3)" stroke="#10B981" stroke-width=".8" class="sd-blink-2"/></g><g transform="translate(80,290)"><rect x="-52" y="-24" width="104" height="48" rx="6" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.2)" stroke-width="1"/><text x="0" y="-8" font-family="JetBrains Mono,monospace" font-size="8" fill="#2DD4F0" text-anchor="middle">THROUGHPUT</text><text x="0" y="12" font-family="Space Grotesk,sans-serif" font-size="16" font-weight="700" fill="#67E8F9" text-anchor="middle">40+ / min</text></g><path d="M40,200 L80,200 L80,215 L95,200 L80,185 L80,200" fill="rgba(45,212,240,.15)" stroke="#2DD4F0" stroke-width=".8"/><text x="40" y="250" font-family="JetBrains Mono,monospace" font-size="8" fill="#94A3B8">ENTRY</text></svg>`,
+
+  networking:`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="ng1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><radialGradient id="ng2" cx=".5" cy=".5" r=".5"><stop offset="0%" stop-color="#67E8F9"/><stop offset="100%" stop-color="#1E5BA8"/></radialGradient><filter id="ngl"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(240,180)"><rect x="-52" y="-26" width="104" height="52" rx="8" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.8" filter="url(#ngl)"/><text x="0" y="-10" font-family="JetBrains Mono,monospace" font-size="8" fill="#2DD4F0" text-anchor="middle" letter-spacing="1">CORE SWITCH</text><circle cx="-36" cy="8" r="4" fill="rgba(16,185,129,.4)" stroke="#10B981" stroke-width=".8" class="sd-blink"/><circle cx="-22" cy="8" r="4" fill="rgba(16,185,129,.4)" stroke="#10B981" stroke-width=".8" class="sd-blink-2"/><circle cx="-8" cy="8" r="4" fill="rgba(16,185,129,.4)" stroke="#10B981" stroke-width=".8" class="sd-blink-3"/><circle cx="6" cy="8" r="4" fill="rgba(45,212,240,.4)" stroke="#2DD4F0" stroke-width=".8" class="sd-blink"/><circle cx="20" cy="8" r="4" fill="rgba(45,212,240,.4)" stroke="#2DD4F0" stroke-width=".8" class="sd-blink-2"/><circle cx="34" cy="8" r="4" fill="rgba(45,212,240,.2)" stroke="rgba(45,212,240,.5)" stroke-width=".8"/></g><g transform="translate(240,60)"><circle r="28" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1.2"/><circle r="28" fill="none" stroke="rgba(45,212,240,.15)" stroke-width="8"/><text x="0" y="-8" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">INTERNET</text><text x="0" y="6" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">WAN UPLINK</text><circle r="4" fill="#2DD4F0" filter="url(#ngl)" class="sd-pulse" transform="translate(0,16)"/></g><g transform="translate(90,200)"><rect x="-38" y="-18" width="76" height="36" rx="6" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.35)" stroke-width="1"/><text x="0" y="-4" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">DIST-SW-01</text><text x="0" y="10" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">Floor 1–4</text></g><g transform="translate(390,200)"><rect x="-38" y="-18" width="76" height="36" rx="6" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.35)" stroke-width="1"/><text x="0" y="-4" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle">DIST-SW-02</text><text x="0" y="10" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8" text-anchor="middle">Floor 5–8</text></g><g transform="translate(130,308)"><rect x="-32" y="-16" width="64" height="32" rx="6" fill="rgba(15,30,54,.85)" stroke="rgba(45,212,240,.25)" stroke-width=".8"/><path d="M0,-6 Q-12,4 0,12 Q12,4 0,-6Z" fill="none" stroke="#2DD4F0" stroke-width=".8" class="sd-pulse-2"/><text x="0" y="16" font-family="JetBrains Mono,monospace" font-size="6.5" fill="#67E8F9" text-anchor="middle">Wi-Fi 6</text></g><g transform="translate(350,308)"><rect x="-32" y="-16" width="64" height="32" rx="6" fill="rgba(15,30,54,.85)" stroke="rgba(45,212,240,.25)" stroke-width=".8"/><path d="M0,-6 Q-12,4 0,12 Q12,4 0,-6Z" fill="none" stroke="#2DD4F0" stroke-width=".8" class="sd-pulse-3"/><text x="0" y="16" font-family="JetBrains Mono,monospace" font-size="6.5" fill="#67E8F9" text-anchor="middle">Wi-Fi 6</text></g><g transform="translate(240,308)"><rect x="-44" y="-14" width="88" height="28" rx="4" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.3)" stroke-width=".8"/><text x="0" y="-2" font-family="JetBrains Mono,monospace" font-size="7" fill="#2DD4F0" text-anchor="middle" letter-spacing=".5">FIBER PATCH</text><text x="0" y="10" font-family="Inter,sans-serif" font-size="7.5" fill="#94A3B8" text-anchor="middle">OM4 · Certified</text></g><line x1="240" y1="88" x2="240" y2="154" stroke="#2DD4F0" stroke-width="2" stroke-opacity=".6" class="sd-flow"/><line x1="188" y1="180" x2="128" y2="200" stroke="rgba(45,212,240,.5)" stroke-width="1.5" class="sd-flow sd-flow-2"/><line x1="292" y1="180" x2="352" y2="200" stroke="rgba(45,212,240,.5)" stroke-width="1.5" class="sd-flow sd-flow-3"/><line x1="90" y1="218" x2="130" y2="292" stroke="rgba(45,212,240,.35)" stroke-width="1" stroke-dasharray="4 3"/><line x1="390" y1="218" x2="350" y2="292" stroke="rgba(45,212,240,.35)" stroke-width="1" stroke-dasharray="4 3"/><line x1="240" y1="206" x2="240" y2="294" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 3"/><g transform="translate(406,60)"><rect x="-34" y="-12" width="68" height="24" rx="6" fill="rgba(45,212,240,.08)" stroke="rgba(45,212,240,.3)" stroke-width=".8"/><text x="0" y="4" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle">TIA/EIA-568</text></g><g transform="translate(74,60)"><rect x="-30" y="-12" width="60" height="24" rx="6" fill="rgba(45,212,240,.08)" stroke="rgba(45,212,240,.3)" stroke-width=".8"/><text x="0" y="4" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle">Cat6A · OTDR</text></g></svg>`,
+
+  supplies:`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><filter id="sgl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(240,180)"><circle r="52" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.8" filter="url(#sgl)"/><path d="M-20,-20 L0,-28 L20,-20 L20,8 L0,16 L-20,8Z" fill="none" stroke="#2DD4F0" stroke-width="1.5" class="sd-rotate"/><path d="M-12,-12 L0,-18 L12,-12 L12,4 L0,10 L-12,4Z" fill="url(#sg1)" opacity=".4"/><text x="0" y="30" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle">PROCUREMENT</text></g><g transform="translate(120,72)"><rect x="-40" y="-24" width="80" height="48" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><path d="M-18,-8 L2,-8 L2,8 L-18,8Z" fill="#1E5BA8" stroke="#2DD4F0" stroke-width=".8"/><path d="M2,-10 L16,0 L2,10Z" fill="#2DD4F0" opacity=".8"/><text x="0" y="24" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Cameras</text></g><g transform="translate(360,72)"><rect x="-40" y="-24" width="80" height="48" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><path d="M-20,4 Q-10,-10 0,4 Q10,-10 20,4" fill="none" stroke="#2DD4F0" stroke-width="2"/><text x="0" y="24" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Cabling</text></g><g transform="translate(74,240)"><rect x="-40" y="-24" width="80" height="48" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><rect x="-24" y="-10" width="48" height="20" rx="3" fill="rgba(30,91,168,.4)" stroke="rgba(45,212,240,.4)"/><circle cx="-14" cy="0" r="4" fill="rgba(16,185,129,.6)" class="sd-blink"/><circle cx="0" cy="0" r="4" fill="rgba(45,212,240,.6)" class="sd-blink-2"/><text x="0" y="24" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Controllers</text></g><g transform="translate(406,240)"><rect x="-40" y="-24" width="80" height="48" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><rect x="-20" y="-18" width="40" height="36" rx="2" fill="none" stroke="#2DD4F0" stroke-width=".8"/><line x1="-20" y1="-10" x2="20" y2="-10" stroke="rgba(45,212,240,.4)" stroke-width=".6"/><line x1="-20" y1="-2" x2="20" y2="-2" stroke="rgba(45,212,240,.4)" stroke-width=".6"/><line x1="-20" y1="6" x2="20" y2="6" stroke="rgba(45,212,240,.4)" stroke-width=".6"/><text x="0" y="24" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Racks</text></g><g transform="translate(120,304)"><rect x="-40" y="-20" width="80" height="40" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><rect x="-16" y="-14" width="32" height="28" rx="4" fill="none" stroke="#2DD4F0" stroke-width=".8"/><path d="M-6,-4 L0,4 L10,-8" fill="none" stroke="#2DD4F0" stroke-width="1.5"/><text x="0" y="22" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Access HW</text></g><g transform="translate(360,304)"><rect x="-40" y="-20" width="80" height="40" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><path d="M-16,-12 L16,-12 L20,12 L-20,12Z" fill="none" stroke="#2DD4F0" stroke-width=".8"/><text x="0" y="22" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Consumables</text></g><line x1="192" y1="158" x2="150" y2="96" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".5" class="sd-flow"/><line x1="288" y1="158" x2="330" y2="96" stroke="#2DD4F0" stroke-width="1.2" stroke-opacity=".5" class="sd-flow sd-flow-2"/><line x1="190" y1="190" x2="114" y2="220" stroke="rgba(45,212,240,.45)" stroke-width="1" class="sd-flow sd-flow-3"/><line x1="290" y1="190" x2="366" y2="220" stroke="rgba(45,212,240,.45)" stroke-width="1" class="sd-flow"/><line x1="210" y1="220" x2="150" y2="284" stroke="rgba(45,212,240,.4)" stroke-width="1" class="sd-flow sd-flow-2"/><line x1="270" y1="220" x2="330" y2="284" stroke="rgba(45,212,240,.4)" stroke-width="1" class="sd-flow sd-flow-3"/><g transform="translate(240,50)"><rect x="-44" y="-14" width="88" height="28" rx="8" fill="rgba(16,185,129,.1)" stroke="#10B981" stroke-width=".8"/><circle cx="-28" cy="0" r="5" fill="#10B981" class="sd-blink"/><text x="-16" y="4" font-family="JetBrains Mono,monospace" font-size="8" fill="#10B981" letter-spacing=".5">AUTHORIZED · WARRANTY</text></g></svg>`,
+  consulting:`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="cn1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><filter id="cnl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path d="M240,180 L110,70" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><path d="M240,180 L370,70" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><path d="M240,180 L110,290" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><path d="M240,180 L370,290" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><g transform="translate(240,180)"><circle r="54" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.8" filter="url(#cnl)"/><path d="M0,-30 L22,-21 L22,6 Q22,20 0,30 Q-22,20 -22,6 L-22,-21Z" fill="url(#cn1)" opacity=".35" stroke="#2DD4F0" stroke-width="1.5"/><path d="M-10,0 L-3,8 L11,-8" fill="none" stroke="#2DD4F0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><text x="0" y="44" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle">QUALITY</text></g><g transform="translate(110,70)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-18" y="-14" width="36" height="22" rx="2"/><path d="M-6,-14 V8 M6,-14 V8 M-18,-3 H18"/><circle cx="10" cy="3" r="2" fill="#2DD4F0" class="sd-blink"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Site Survey</text></g><g transform="translate(370,70)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-16,-13 H10 M-16,-5 H10 M-16,3 H10"/><path d="M12,-15 l3,3 l5,-6 M12,-7 l3,3 l5,-6" stroke-width="1.5"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">BOQ Review</text></g><g transform="translate(110,290)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-14,8 L4,-10"/><circle cx="8" cy="-14" r="6"/><path d="M-6,10 H14"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Installation</text></g><g transform="translate(370,290)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-13" y="-15" width="26" height="30" rx="2"/><path d="M-7,-5 H7 M-7,1 H3"/><circle cx="6" cy="9" r="5" fill="rgba(45,212,240,.25)"/><path d="M3.5,9 L5.5,11 L9,7" stroke-width="1.4"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Handover</text></g></svg>`,
+  software:`<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sf1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1E5BA8"/><stop offset="100%" stop-color="#2DD4F0"/></linearGradient><filter id="sfl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path d="M240,180 L110,70" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><path d="M240,180 L370,70" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><path d="M240,180 L110,290" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><path d="M240,180 L370,290" stroke="rgba(45,212,240,.3)" stroke-width="1" stroke-dasharray="4 4"/><g transform="translate(240,180)"><circle r="54" fill="rgba(15,30,54,.95)" stroke="#2DD4F0" stroke-width="1.8" filter="url(#sfl)"/><text x="0" y="8" font-family="JetBrains Mono,monospace" font-size="26" font-weight="600" fill="#2DD4F0" text-anchor="middle" filter="url(#sfl)">&lt;/&gt;</text><text x="0" y="40" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2DD4F0" text-anchor="middle">CUSTOM SOFTWARE</text></g><g transform="translate(110,70)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-18" y="-14" width="36" height="22" rx="2"/><path d="M-6,12 H6 M0,8 V12"/><path d="M-8,-6 l-4,3 l4,3 M8,-6 l4,3 l-4,3"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Desktop Apps</text></g><g transform="translate(370,70)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-9" y="-16" width="18" height="30" rx="3"/><path d="M-3,10 H3"/><path d="M-4,-6 H4 M-4,-1 H4" opacity=".7"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Mobile Apps</text></g><g transform="translate(110,290)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-18,0 H-6 M6,0 H18 M-6,-8 L-6,8 M6,-8 L6,8"/><circle cx="-6" cy="0" r="3" fill="#2DD4F0" class="sd-blink"/><circle cx="6" cy="0" r="3" fill="#2DD4F0" class="sd-blink-2"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">APIs & Cloud</text></g><g transform="translate(370,290)"><rect x="-44" y="-26" width="88" height="52" rx="8" fill="rgba(15,30,54,.9)" stroke="rgba(45,212,240,.4)" stroke-width="1"/><g transform="translate(0,-6)" fill="none" stroke="#2DD4F0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-2" r="10"/><circle cx="0" cy="-2" r="4"/><path d="M-8,12 H8"/></g><text x="0" y="19" font-family="Inter,sans-serif" font-size="8" fill="#CBD5E1" text-anchor="middle">Devices</text></g></svg>`
+};
+
+const ICONS = {
+  camera:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>`,
+  lock:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1.2" fill="currentColor"/></svg>`,
+  clock:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>`,
+  gate:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V7a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14"/><path d="M21 21V7a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v14"/><path d="M9 12h6"/><path d="M2 21h20"/></svg>`,
+  network:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v3M12 10l-5 7M12 10l5 7M5 19h14"/></svg>`,
+  box:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8L12 3 3 8v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></svg>`,
+  shield:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>`,
+  cog:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"> <circle cx="12" cy="12" r="3"/> <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/> </svg>`,
+  code:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>`
+};
+
+const SVC_ICON = {cctv:'camera','access-control':'lock','time-attendance':'clock',turnstiles:'gate',networking:'network',supplies:'box',consulting:'cog',software:'code'};
+const CHECK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+
+function renderPage() {
+  const slug = (window.ARKUM_SERVICE || new URLSearchParams(window.location.search).get('service')) || 'turnstiles';
+  const svc  = SERVICES.find(s => s.id === slug) || SERVICES[0];
+  const icon = ICONS[SVC_ICON[svc.id]] || ICONS.shield;
+  const illo = ILLUSTRATIONS[svc.id] || ILLUSTRATIONS.cctv;
+  const idx  = SERVICES.findIndex(s => s.id === svc.id);
+  const rel  = [SERVICES[(idx+1)%SERVICES.length], SERVICES[(idx+2)%SERVICES.length]];
+
+  
+  
+
+  document.getElementById('svcMain').innerHTML = `
+    <section class="page-hero">
+      <div class="hero-bg"><div class="orb orb-1"></div><div class="orb orb-2"></div><div class="hex-grid"></div></div>
+      <div class="container" style="position:relative;z-index:2;">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a><span class="breadcrumb-sep">/</span>
+          <a href="services.html">Services</a><span class="breadcrumb-sep">/</span>
+          <span style="color:var(--color-electric-cyan);">${svc.name}</span>
+        </div>
+        <div class="svc-hero-grid" style="margin-top:var(--space-6);">
+          <div class="reveal">
+            <div class="hex-icon" style="margin-bottom:var(--space-4);">${icon}</div>
+            <span class="text-label accent-line">// ${svc.tagline.toUpperCase()}</span>
+            <h1 class="text-h1" style="margin:12px 0 20px;">${svc.name}</h1>
+            <p class="text-lead">${svc.description}</p>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;">
+              <a href="contact.html" class="btn btn-primary btn-lg">Request a Quote <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+              <a href="services.html" class="btn btn-secondary">All Services</a>
+            </div>
+          </div>
+          <div class="reveal" style="animation-delay:200ms;">
+            <div class="svc-illo-wrap">${illo}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal align-left" style="margin:0 0 32px;">
+          <span class="text-label accent-line">// CAPABILITIES</span>
+          <h2 class="text-h2">Key Features</h2>
+        </div>
+        <div class="feat-grid reveal-stagger">
+          ${svc.features.map(f=>`<div class="feat-row"><div class="feat-check">${CHECK}</div><span>${f}</span></div>`).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--color-midnight);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="text-label accent-line">// USE CASES</span>
+          <h2 class="text-h2" style="margin-bottom:12px;">Real-world deployments</h2>
+          <p class="text-lead">Where this system delivers measurable security and operational outcomes.</p>
+        </div>
+        <div class="uc-grid reveal-stagger">
+          ${svc.useCases.map(u=>`<div class="card"><div class="hex-icon" style="width:44px;height:44px;margin-bottom:16px;">${ICONS.shield}</div><h3 class="text-h4" style="margin-bottom:8px;">${u.title}</h3><p class="text-body" style="font-size:.9375rem;">${u.desc}</p></div>`).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="outcome-band reveal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <div>
+            <p style="font-family:'JetBrains Mono',monospace;font-size:.7rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;color:var(--color-electric-cyan);margin-bottom:6px;">// OPERATIONAL OUTCOME</p>
+            <p>${svc.outcome}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--color-midnight);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="text-label accent-line">// SYSTEM COMPONENTS</span>
+          <h2 class="text-h2">Engineered with certified hardware</h2>
+        </div>
+        <div class="comp-wrap reveal">
+          ${svc.components.map(c=>`<span class="tag tag-dot" style="font-size:.8125rem;padding:8px 16px;">${c}</span>`).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal align-left" style="text-align:left;margin:0 0 28px;">
+          <span class="text-label accent-line">// RELATED</span>
+          <h2 class="text-h2">Complementary services</h2>
+        </div>
+        <div class="related-grid reveal-stagger">
+          ${rel.map(s=>`<a href="service-details.html?service=${s.id}" class="card service-card"><div class="hex-icon">${ICONS[SVC_ICON[s.id]]||ICONS.shield}</div><h3 class="text-h4" style="margin-bottom:8px;">${s.name}</h3><p class="text-body" style="font-size:.9375rem;margin-bottom:20px;">${s.features[0]}</p><div class="card-arrow"><span style="font-family:'Space Grotesk',sans-serif;font-size:.875rem;font-weight:500;color:var(--color-electric-cyan);">Learn more</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" style="color:var(--color-electric-cyan);transition:transform 200ms;"><path d="M5 12h14M13 5l7 7-7 7"/></svg></div></a>`).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <span class="text-label accent-line">// GET STARTED</span>
+          <h2 class="text-h2" style="margin-bottom:16px;">Ready to deploy <span class="text-gradient">${svc.name}</span>?</h2>
+          <p class="text-lead" style="max-width:560px;margin:0 auto 32px;">Talk to our engineering team about your site, scope, and timeline. We handle everything from survey to commissioning.</p>
+          <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary btn-lg">Request a Quote <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+            <a href="services.html" class="btn btn-secondary btn-lg">All Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+
+  // Force-show all reveal elements injected into the DOM
+  setTimeout(() => {
+    document.querySelectorAll('#svcMain .reveal, #svcMain .reveal-stagger').forEach(el => {
+      el.classList.add('visible');
+    });
+  }, 80);
+}
+
+document.addEventListener('arkum:ready', renderPage, {once:true});
+// Fallback if components are slow
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    const h = document.querySelector('#svcMain h1');
+    if (h && !document.querySelector('.svc-illo-wrap')) renderPage();
+  }, 900);
+});
+</script>
+</body>
+</html>

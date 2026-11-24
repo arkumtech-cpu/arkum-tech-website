@@ -1,0 +1,313 @@
+{
+  "services": [
+    {
+      "id": "cctv",
+      "name": "CCTV Systems",
+      "tagline": "IP surveillance with intelligent video analytics",
+      "short": "High-resolution monitoring, intelligent analytics, and centralized management across distributed sites.",
+      "icon": "camera",
+      "description": "Deploy enterprise-grade IP video surveillance with edge analytics, centralized VMS, and forensic-grade recording. From single-site coverage to multi-location deployments with unified command and control.",
+      "features": [
+        "4K / 8MP IP cameras with low-light and IR capability",
+        "AI-driven analytics: intrusion, loitering, line-crossing, face capture",
+        "Centralized Video Management System (VMS) with multi-site support",
+        "Edge + central recording with redundancy and failover",
+        "ONVIF-compliant integration with third-party platforms",
+        "Mobile and web-based remote viewing with role-based access"
+      ],
+      "useCases": [
+        {
+          "title": "Perimeter Surveillance",
+          "desc": "Thermal and analytic cameras securing facility boundaries with automated intrusion alerts."
+        },
+        {
+          "title": "Retail & Commercial",
+          "desc": "Loss-prevention coverage with people-counting and heat-map analytics."
+        },
+        {
+          "title": "Critical Infrastructure",
+          "desc": "Hardened cameras and encrypted streams for utilities, data centers, and industrial sites."
+        }
+      ],
+      "components": [
+        "IP Cameras",
+        "NVR / VMS",
+        "Storage Arrays",
+        "PoE Switches",
+        "Encoders",
+        "Display Walls"
+      ]
+    },
+    {
+      "id": "access-control",
+      "name": "Access Control Systems",
+      "tagline": "Credential, biometric, and mobile access management",
+      "short": "Card, biometric, and mobile credentials with full audit logging and policy-based access.",
+      "icon": "lock",
+      "description": "Control who enters, when, and where — across single doors or enterprise campuses. Integrated with HR systems, visitor management, and intrusion alarms for a unified physical security posture.",
+      "features": [
+        "Card, PIN, biometric (fingerprint, face), and mobile credentials",
+        "Anti-passback, dual authentication, and time-zone restrictions",
+        "Centralized policy engine with audit trails and compliance reporting",
+        "Integration with HR, visitor management, and emergency systems",
+        "Wiegand, OSDP, and IP-based controller architectures",
+        "Lockdown protocols and emergency override workflows"
+      ],
+      "useCases": [
+        {
+          "title": "Corporate Headquarters",
+          "desc": "Multi-tier access zones with executive-floor restrictions and visitor escort enforcement."
+        },
+        {
+          "title": "Healthcare Facilities",
+          "desc": "Restricted-area control for pharmacies, server rooms, and patient records."
+        },
+        {
+          "title": "Industrial Sites",
+          "desc": "Contractor management, certification gating, and high-risk-zone authorization."
+        }
+      ],
+      "components": [
+        "IP Controllers",
+        "Card Readers",
+        "Biometric Terminals",
+        "Electric Strikes",
+        "Maglocks",
+        "Door Position Sensors"
+      ]
+    },
+    {
+      "id": "time-attendance",
+      "name": "Time & Attendance",
+      "tagline": "Workforce time tracking with payroll integration",
+      "short": "Biometric and card-based attendance with HR system integration and reporting.",
+      "icon": "clock",
+      "description": "Accurate workforce time capture with biometric verification, shift management, and direct payroll integration. Eliminate buddy-punching, reduce administrative overhead, and produce audit-ready records.",
+      "features": [
+        "Fingerprint, face, and palm-vein verification",
+        "Shift scheduling, overtime, and leave management",
+        "Direct integration with payroll and ERP systems",
+        "Geo-fenced mobile clock-in for field workforce",
+        "Compliance reporting for labor regulations",
+        "Multi-location consolidation with centralized reporting"
+      ],
+      "useCases": [
+        {
+          "title": "Manufacturing",
+          "desc": "Shift-based tracking with line-by-line productivity and overtime control."
+        },
+        {
+          "title": "Hospitality",
+          "desc": "Multi-shift, multi-role workforce with auto-scheduled rostering."
+        },
+        {
+          "title": "Distributed Workforce",
+          "desc": "Mobile geo-fenced clock-in for sales, service, and field engineering teams."
+        }
+      ],
+      "components": [
+        "Biometric Terminals",
+        "Time Clock Devices",
+        "Mobile Apps",
+        "Reporting Software",
+        "Payroll Connectors"
+      ]
+    },
+    {
+      "id": "turnstiles",
+      "name": "Turnstile & Entrance Control",
+      "tagline": "Physical entrance control for high-throughput environments",
+      "short": "Tripod, swing, and full-height turnstiles integrated with access control and ticketing.",
+      "icon": "gate",
+      "description": "Manage pedestrian flow at high-traffic entry points without compromising security. From discrete office lobbies to high-throughput stadium gates, integrated with credential, ticket, or QR-code authentication.",
+      "features": [
+        "Tripod, swing-gate, speed-gate, and full-height options",
+        "Integrated with access control, ticketing, and visitor systems",
+        "Anti-tailgating sensors and bidirectional throughput",
+        "ADA-compliant lanes and emergency egress modes",
+        "QR, NFC, RFID, and biometric authentication",
+        "Stainless steel, glass, and architectural finishes"
+      ],
+      "useCases": [
+        {
+          "title": "Office Lobbies",
+          "desc": "Speed gates with employee credentials and visitor QR-code passes."
+        },
+        {
+          "title": "Transit & Stadiums",
+          "desc": "Full-height and tripod gates for high-volume ticketed entry."
+        },
+        {
+          "title": "Industrial Gates",
+          "desc": "Hardened turnstiles for plant entrances with PPE-compliance gating."
+        }
+      ],
+      "components": [
+        "Tripod Turnstiles",
+        "Speed Gates",
+        "Swing Gates",
+        "Full-Height Turnstiles",
+        "Reader Pedestals",
+        "Lane Controllers"
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "Networking & Low Current",
+      "tagline": "Structured cabling and low-voltage infrastructure",
+      "short": "Structured cabling, fiber, switching, and low-current systems for buildings and campuses.",
+      "icon": "network",
+      "description": "The backbone every security and IT system depends on. We design, install, and certify structured cabling, fiber backbones, and active networking infrastructure for buildings, campuses, and industrial facilities.",
+      "features": [
+        "Cat6 / Cat6A / Cat7 structured cabling, certified per TIA/EIA standards",
+        "Single-mode and multi-mode fiber backbones with OTDR certification",
+        "Managed PoE+ switching, VLANs, and QoS for AV / security",
+        "Wireless coverage planning with site surveys and heat maps",
+        "Server room, MDF, and IDF design and build",
+        "Public address, intercom, and nurse-call low-current systems"
+      ],
+      "useCases": [
+        {
+          "title": "Office Build-Out",
+          "desc": "Full structured cabling, racks, switching, and Wi-Fi for new tenant fit-outs."
+        },
+        {
+          "title": "Multi-Building Campus",
+          "desc": "Fiber backbone connecting buildings with redundant ring topology."
+        },
+        {
+          "title": "Industrial Networks",
+          "desc": "Hardened, ruggedized switching for plant-floor monitoring and SCADA."
+        }
+      ],
+      "components": [
+        "Structured Cabling",
+        "Fiber Backbone",
+        "Managed Switches",
+        "Wireless APs",
+        "Server Racks",
+        "Patch Panels"
+      ]
+    },
+    {
+      "id": "supplies",
+      "name": "General Supplies",
+      "tagline": "Trusted hardware sourcing and procurement",
+      "short": "Authorized sourcing of cables, hardware, components, and consumables from leading vendors.",
+      "icon": "box",
+      "description": "Streamlined procurement of certified hardware, cables, and consumables. Authorized vendor relationships ensure authentic equipment, warranty support, and supply continuity for ongoing projects and maintenance.",
+      "features": [
+        "Authorized vendor relationships with leading manufacturers",
+        "Bulk and project-based procurement with delivery scheduling",
+        "Certified products with manufacturer warranty coverage",
+        "Cabling, connectors, racks, accessories, and consumables",
+        "Replacement parts and end-of-life equipment alternatives",
+        "Technical advisory on product selection and compatibility"
+      ],
+      "useCases": [
+        {
+          "title": "Project Procurement",
+          "desc": "Single-source supply for full security and networking deployments."
+        },
+        {
+          "title": "Maintenance Stock",
+          "desc": "Replenishment supply for facilities maintenance and IT operations."
+        },
+        {
+          "title": "Specification Advisory",
+          "desc": "Consultative product selection for engineering and design teams."
+        }
+      ],
+      "components": [
+        "Cabling",
+        "Connectors",
+        "Racks & Enclosures",
+        "Power Distribution",
+        "Tools & Accessories",
+        "Replacement Parts"
+      ]
+    },
+    {
+      "id": "consulting",
+      "name": "Installation & Technical Consulting",
+      "tagline": "Engineering oversight from first quotation to final handover",
+      "short": "Site surveys, technical review of quotations, professional installation and supervision — so every project is delivered right.",
+      "icon": "cog",
+      "description": "Having Arkum Tech involved from the first quotation to final handover protects your investment. We survey the site, review and validate technical proposals and bills of quantities, carry out or supervise the installation, and test every system before it goes live — so the work is completed correctly, to specification, and fully documented.",
+      "features": [
+        "Site survey and requirements analysis before any commitment",
+        "Independent technical review of quotations and bills of quantities (BOQ)",
+        "System design: camera coverage, door schedules, network and cabling plans",
+        "Installation by trained technicians following manufacturer and industry standards",
+        "On-site supervision and quality checks for third-party contractors",
+        "Testing, commissioning, documentation and user training at handover"
+      ],
+      "useCases": [
+        {
+          "title": "Quotation Validation",
+          "desc": "A second technical opinion on vendor offers: specifications, quantities, compatibility and hidden gaps — reviewed before you sign."
+        },
+        {
+          "title": "Corporate Fit-Outs",
+          "desc": "Technical consultation on the security and low-current scope, coordinated with MEP and civil teams from design to delivery."
+        },
+        {
+          "title": "Retrofit & Upgrade",
+          "desc": "Assessment of existing CCTV, access control and cabling, then an upgrade plan that reuses what still works."
+        }
+      ],
+      "components": [
+        "Site Survey",
+        "BOQ Review",
+        "System Design",
+        "Installation",
+        "Supervision",
+        "Commissioning",
+        "Documentation",
+        "Maintenance Plans"
+      ],
+      "outcome": "A project delivered to specification — documented, tested and handed over with the confidence that every system works as designed."
+    },
+    {
+      "id": "software",
+      "name": "Software & App Development",
+      "tagline": "Custom desktop and mobile applications for security and operations",
+      "short": "Custom Windows desktop and Android / iOS applications, dashboards and integrations built around your systems and workflows.",
+      "icon": "code",
+      "description": "Our software department builds custom applications that connect to the systems we install and to your business workflows: desktop software for control rooms and back offices, and mobile apps for staff, guards and customers — from attendance and visitor management to monitoring dashboards and ERP integrations.",
+      "features": [
+        "Windows desktop applications: control-room tools, reporting and device management",
+        "Android and iOS apps (cross-platform with Flutter) for staff, guards and customers",
+        "Integration with CCTV, access control and attendance devices through vendor SDKs and APIs",
+        "Custom dashboards, reports and real-time alerts",
+        "Attendance, payroll, HR and ERP integrations",
+        "Secure back-end APIs, role-based access and ongoing maintenance"
+      ],
+      "useCases": [
+        {
+          "title": "Attendance & HR Apps",
+          "desc": "Mobile and desktop attendance tools connected to biometric devices, with shift rules and payroll-ready reports."
+        },
+        {
+          "title": "Visitor & Guard Management",
+          "desc": "QR visitor passes, guard patrol check-ins and incident reporting from a mobile app, tied to your access control."
+        },
+        {
+          "title": "Monitoring Dashboards",
+          "desc": "Unified web and desktop dashboards combining device status, events and reports across sites."
+        }
+      ],
+      "components": [
+        "Windows Desktop Apps",
+        "Android & iOS Apps",
+        "Flutter",
+        "REST APIs",
+        "Device SDK Integration",
+        "Dashboards & Reports",
+        "Cloud / On-prem Hosting",
+        "Support & Updates"
+      ],
+      "outcome": "Software that fits how your team actually works — connected to your devices, secured by design, and maintained after launch."
+    }
+  ]
+}

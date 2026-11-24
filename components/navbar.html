@@ -1,0 +1,57 @@
+<!-- ============================================================
+     ARKUM TECH — NAVBAR COMPONENT
+     ------------------------------------------------------------
+     Loaded by /js/main.js into <div id="component-navbar"></div>
+     Active page detection runs after injection.
+     ------------------------------------------------------------
+     TO EDIT NAV LINKS:
+     1. Update the <a> tags below
+     2. Update the same links in /components/footer.html
+     3. The data-page attribute matches filename without .html
+     ============================================================ -->
+
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+
+    <!-- Logo -->
+    <a href="index.html" class="navbar-logo" aria-label="Arkum Tech home">
+      <img src="assets/images/logo-mark.png" class="logo-mark" alt="Arkum Tech" />
+      <span>ARKUM<span class="logo-accent">TECH</span></span>
+    </a>
+
+    <!-- Desktop Links -->
+    <div class="navbar-links">
+      <a href="index.html"          class="navbar-link" data-page="index">Home</a>
+      <a href="about.html"          class="navbar-link" data-page="about">About</a>
+      <a href="services.html"       class="navbar-link" data-page="services">Services</a>
+      <a href="projects.html"       class="navbar-link" data-page="projects">Projects</a>
+      <a href="contact.html"        class="navbar-link" data-page="contact">Contact</a>
+    </div>
+
+    <!-- Desktop CTA -->
+    <a href="contact.html" class="btn btn-primary btn-sm navbar-cta">
+      Request a Quote
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+
+  <!-- Mobile Panel -->
+  <div class="navbar-mobile" id="navbarMobile">
+    <a href="index.html"    data-page="index">Home</a>
+    <a href="about.html"    data-page="about">About</a>
+    <a href="services.html" data-page="services">Services</a>
+    <a href="projects.html" data-page="projects">Projects</a>
+    <a href="contact.html"  data-page="contact">Contact</a>
+    <a href="contact.html" class="btn btn-primary">
+      Request a Quote
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+</nav>

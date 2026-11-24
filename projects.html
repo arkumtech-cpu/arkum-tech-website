@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A1628" />
+
+  <title>مشاريع أنظمة المراقبة والتحكم في الدخول | Projects — Arkum Tech</title>
+  <meta name="description" content="نماذج مشروعات تنفيذ كاميرات مراقبة وتحكم في الدخول وحضور وانصراف في المكاتب والفنادق والمصانع والمستشفيات. Security projects by Arkum Tech." />
+  <meta name="keywords" content="مشاريع كاميرات مراقبة, مشاريع تحكم في الدخول, security projects Egypt, hotel access control" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://arkumtech.com/projects.html" />
+  <link rel="alternate" hreflang="ar" href="https://arkumtech.com/projects.html" />
+  <link rel="alternate" hreflang="en" href="https://arkumtech.com/projects.html" />
+  <link rel="alternate" hreflang="x-default" href="https://arkumtech.com/projects.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Arkum Tech" />
+  <meta property="og:title" content="مشاريع أنظمة المراقبة والتحكم في الدخول | Projects — Arkum Tech" />
+  <meta property="og:description" content="نماذج مشروعات تنفيذ كاميرات مراقبة وتحكم في الدخول وحضور وانصراف في المكاتب والفنادق والمصانع والمستشفيات. Security projects by Arkum Tech." />
+  <meta property="og:url" content="https://arkumtech.com/projects.html" />
+  <meta property="og:image" content="https://arkumtech.com/assets/images/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/custom.css?v=20261124" />
+</head>
+<body>
+
+  <div data-component="navbar"></div>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="hex-grid"></div>
+    </div>
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span style="color: var(--color-electric-cyan);">Projects</span>
+      </div>
+      <span class="text-label" style="margin-bottom: 16px; display: inline-block;">// USE CASE DEPLOYMENTS</span>
+      <h1 class="text-h1" style="margin-bottom: 20px;">
+        Engineered systems, <span class="text-gradient">deployed at scale</span>.
+      </h1>
+      <p class="text-lead" style="max-width: 720px; margin: 0 auto;">
+        A representative cross-section of integrated security and infrastructure deployments —
+        from corporate towers to industrial facilities, hospitality to healthcare.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== FILTER BAR + PROJECT GRID ========== -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter chips -->
+      <div class="filter-bar reveal" id="filterBar">
+        <button class="filter-chip active" data-sector="all">All Projects</button>
+        <button class="filter-chip" data-sector="Commercial">Commercial</button>
+        <button class="filter-chip" data-sector="Hospitality">Hospitality</button>
+        <button class="filter-chip" data-sector="Healthcare">Healthcare</button>
+        <button class="filter-chip" data-sector="Industrial">Industrial</button>
+        <button class="filter-chip" data-sector="Education">Education</button>
+      </div>
+
+      <!-- Projects grid (rendered from /data/projects.json) -->
+      <div class="projects-grid reveal-stagger" data-render="projects" id="projectsGrid">
+        <div class="card" style="opacity:0.4;">
+          <div class="hex-icon"></div>
+          <h3 class="text-h4">Loading projects...</h3>
+        </div>
+      </div>
+
+      <!-- Empty state -->
+      <div id="projectsEmpty" style="display:none;text-align:center;padding:64px 24px;">
+        <div class="hex-icon" style="margin: 0 auto var(--space-4);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <h3 class="text-h3" style="margin-bottom: 8px;">No projects in this sector yet</h3>
+        <p class="text-body">Check back soon — we add new deployments regularly.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECTORS WE SERVE ========== -->
+  <section class="section" style="background: var(--color-midnight);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="text-label accent-line">// MARKETS WE SERVE</span>
+        <h2 class="text-h2" style="margin-bottom: 16px;">
+          Built for organizations that <span class="text-gradient">depend on uptime</span>.
+        </h2>
+        <p class="text-lead">
+          Where security is operational, not optional — we deliver systems built to keep working.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;" class="reveal-stagger">
+
+        <div class="card" style="text-align:center; padding: 20px;">
+          <div class="hex-icon" style="margin: 0 auto 12px; width: 44px; height: 44px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:22px;height:22px;"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h4 style="font-size: 0.9375rem; margin-bottom: 4px;">Commercial</h4>
+          <p style="font-size: 0.8125rem; color: var(--color-slate-400);">Office towers, mixed-use</p>
+        </div>
+
+        <div class="card" style="text-align:center; padding: 20px;">
+          <div class="hex-icon" style="margin: 0 auto 12px; width: 44px; height: 44px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:22px;height:22px;"><path d="M2 22h20"/><path d="M5 22V8a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v14"/><path d="M9 9h6M9 13h6M9 17h6"/></svg>
+          </div>
+          <h4 style="font-size: 0.9375rem; margin-bottom: 4px;">Hospitality</h4>
+          <p style="font-size: 0.8125rem; color: var(--color-slate-400);">Hotels, resorts</p>
+        </div>
+
+        <div class="card" style="text-align:center; padding: 20px;">
+          <div class="hex-icon" style="margin: 0 auto 12px; width: 44px; height: 44px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:22px;height:22px;"><path d="M11 2v20M2 11h20"/><circle cx="11" cy="11" r="9"/></svg>
+          </div>
+          <h4 style="font-size: 0.9375rem; margin-bottom: 4px;">Healthcare</h4>
+          <p style="font-size: 0.8125rem; color: var(--color-slate-400);">Hospitals, clinics</p>
+        </div>
+
+        <div class="card" style="text-align:center; padding: 20px;">
+          <div class="hex-icon" style="margin: 0 auto 12px; width: 44px; height: 44px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:22px;height:22px;"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 9v4M13 9v4"/></svg>
+          </div>
+          <h4 style="font-size: 0.9375rem; margin-bottom: 4px;">Industrial</h4>
+          <p style="font-size: 0.8125rem; color: var(--color-slate-400);">Factories, plants</p>
+        </div>
+
+        <div class="card" style="text-align:center; padding: 20px;">
+          <div class="hex-icon" style="margin: 0 auto 12px; width: 44px; height: 44px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:22px;height:22px;"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 4 3 6 3s6-1.34 6-3v-5"/></svg>
+          </div>
+          <h4 style="font-size: 0.9375rem; margin-bottom: 4px;">Education</h4>
+          <p style="font-size: 0.8125rem; color: var(--color-slate-400);">Schools, campuses</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div data-component="cta-band"></div>
+
+  <!-- Footer -->
+  <div data-component="footer"></div>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/201111016335" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact via WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  </a>
+
+  <script src="js/icons.js?v=20261124"></script>
+  <script src="js/main.js?v=20261124"></script>
+  <script src="js/data-loader.js?v=20261124"></script>
+
+  <!-- Filter logic for this page only -->
+  <script>
+    document.addEventListener('arkum:ready', () => {
+      // Wait briefly for projects to render then attach filter
+      setTimeout(() => {
+        const chips = document.querySelectorAll('.filter-chip');
+        const grid = document.getElementById('projectsGrid');
+        const empty = document.getElementById('projectsEmpty');
+
+        chips.forEach(chip => {
+          chip.addEventListener('click', () => {
+            chips.forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+
+            const sector = chip.dataset.sector;
+            const cards = grid.querySelectorAll('.project-card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+              // Find sector tag in the project image overlay
+              const sectorTag = card.querySelector('.project-image > div[style*="absolute"]');
+              const cardSector = sectorTag ? sectorTag.textContent.trim() : '';
+              const show = sector === 'all' || cardSector === sector;
+              card.style.display = show ? '' : 'none';
+              if (show) visibleCount++;
+            });
+
+            empty.style.display = visibleCount === 0 ? 'block' : 'none';
+            grid.style.display = visibleCount === 0 ? 'none' : '';
+          });
+        });
+      }, 300);
+    });
+  </script>
+</body>
+</html>
