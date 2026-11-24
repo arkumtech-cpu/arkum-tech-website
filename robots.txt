@@ -2,3 +2,13 @@ User-agent: *
 Allow: /
 
 Sitemap: https://arkumtech.com/sitemap.xml
+
+# AI search crawlers are welcome
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /

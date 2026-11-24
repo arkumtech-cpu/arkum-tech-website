@@ -1,0 +1,25 @@
+# Arkum Tech
+
+> Arkum Tech (أركوم تك) is a Cairo-based security solutions provider and system integrator. It designs, supplies, installs and supports CCTV, access control, time & attendance, turnstiles, networking and low-current systems, and also offers technical consulting, professional installation and custom desktop/mobile software development.
+
+- Address: Street 9, Mokattam, Cairo, Egypt (شارع 9، المقطم، القاهرة)
+- Phone / WhatsApp: +20 111 101 6335
+- Email: info@arkumtech.com
+- Hours: 9:00 AM – 9:00 PM
+- Languages: Arabic, English
+- Service area: Cairo, Giza and projects across Egypt
+
+## Services
+- [CCTV Systems](https://arkumtech.com/cctv-systems.html): IP/analog surveillance, NVR, remote viewing
+- [Access Control Systems](https://arkumtech.com/access-control-systems.html): card, fingerprint, face and mobile access with audit logs
+- [Time & Attendance](https://arkumtech.com/time-attendance-systems.html): biometric attendance and payroll-ready reports
+- [Turnstiles & Entrance Control](https://arkumtech.com/turnstiles-entrance-control.html): tripod, flap and swing barriers
+- [Networking & Low Current](https://arkumtech.com/networking-low-current.html): structured cabling, Wi-Fi, racks, PoE
+- [General Supplies](https://arkumtech.com/general-supplies.html): security and ELV equipment supply
+- [Technical Consulting & Installation](https://arkumtech.com/technical-consulting-installation.html): design review, BOQ, supervision, commissioning
+- [Software & App Development](https://arkumtech.com/software-app-development.html): custom desktop and mobile applications integrated with security systems
+
+## Key pages
+- [Projects](https://arkumtech.com/projects.html)
+- [About](https://arkumtech.com/about.html)
+- [Contact / Request a Quote](https://arkumtech.com/contact.html)
