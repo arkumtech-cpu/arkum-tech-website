@@ -28,7 +28,7 @@
     const requests = Array.from(slots).map(async (slot) => {
       const name = slot.dataset.component;
       try {
-        const res = await fetch(`components/${name}.html?v=20261124`);
+        const res = await fetch(`components/${name}.html?v=20261125`);
         if (!res.ok) throw new Error(`Failed to load ${name}`);
         slot.outerHTML = await res.text();
       } catch (err) {
